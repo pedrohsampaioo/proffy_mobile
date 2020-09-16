@@ -32,7 +32,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
       backgroundColor: AppColors.background,
       body: SingleChildScrollView(
         child: TemplateOnboardingWidget(
-          nextAction: () => _nextAction(''),
+          nextAction: () => _nextAction('/home'),
           selectedTemplate: _selectedTemplate,
           templates: _templates,
         ),
